@@ -1,0 +1,60 @@
+/* Calm low-light palette for Tiperly. */
+body.dark{--ink:#e7eee7;--muted:#a8b4aa;--green:#29483a;--green2:#71926e;--lime:#d6eeaa;--paper:#171e1a;--white:#212a24;--line:#313c34;--lav:#302e3c;--gold:#403a2c;--shadow:0 14px 42px #080d0a55;color-scheme:dark}
+body.dark .sidebar{background:#1b231e;border-color:#303a33}
+body.dark .brand{color:#edf2eb}
+body.dark .nav-caption,body.dark .breadcrumb,body.dark .stat-copy small,body.dark .lesson-card p,body.dark .course-row p,body.dark .overview-card p,body.dark .chart-card p,body.dark .daily-card p,body.dark .setting-row small{color:#a0aca2}
+body.dark .breadcrumb b,body.dark .streak,body.dark .streak b{color:#d1dbd1}
+body.dark .nav-item{color:#b1bcb2}
+body.dark .nav-item:hover{background:#27312a}
+body.dark .nav-item.active{background:#2a392f;color:#e4efdf}
+body.dark .daily-card{background:#263229}
+body.dark .daily-card strong{color:#e2eae0}
+body.dark .mini-progress{background:#39443a}
+body.dark .profile{border-color:#303a33}
+body.dark .profile strong{color:#e1e9e1}
+body.dark .profile small,body.dark .profile-dots{color:#9aa69b}
+body.dark .topbar{border-color:#303a33}
+body.dark .icon-button,body.dark .date-pill,body.dark .select{background:#222b25;border-color:#39443b;color:#d6e0d6}
+body.dark .hero{background:#263f32}
+body.dark .hero p{color:#d3ddd5}
+body.dark .stat-card,body.dark .lesson-card,body.dark .progress-panel,body.dark .course-row,body.dark .overview-card,body.dark .chart-card,body.dark .exercise-area,body.dark .setting-row{background:#212a24;border-color:#313c34}
+body.dark .stat-card:nth-child(1) .stat-icon{background:#303b2c;color:#c5dca7}
+body.dark .stat-card:nth-child(2) .stat-icon{background:#403a2c;color:#e2c986}
+body.dark .stat-card:nth-child(3) .stat-icon{background:#353342;color:#c7bce9}
+body.dark .stat-copy strong,body.dark .section-heading h2,body.dark .lesson-card h3,body.dark .panel-head h3,body.dark .tip-panel h3,body.dark .course-row h3,body.dark .chart-card h3,body.dark .overview-card .big-number,body.dark .setting-row strong{color:#e6eee6}
+body.dark .lesson-tag{background:#2b342d;color:#bdc8bc}
+body.dark .lesson-illustration{background:#303a2d;color:#c6d5a9}
+body.dark .lesson-card:nth-child(2) .lesson-illustration{background:#403a2c;color:#e0cb91}
+body.dark .lesson-card:nth-child(3) .lesson-illustration{background:#353342;color:#c8bfea}
+body.dark .lesson-progress,body.dark .progress-graph,body.dark .chart-large{background-color:#303a33;border-color:#303a33}
+body.dark .graph-bar{background:#3c4938}
+body.dark .graph-bar.today{background:#94b56c}
+body.dark .graph-labels,body.dark .panel-head span,body.dark .lesson-card-bottom small,body.dark .row-meta{color:#9aa79c}
+body.dark .tip-panel{background:#273229;border-color:#303a33}
+body.dark .tip-panel p{color:#bac5b9}
+body.dark .tip-mark{background:#344135;color:#c5d9a8}
+body.dark .text-btn,body.dark .quiet-btn{color:#bbd1a0}
+body.dark .course-row:hover{border-color:#617454}
+body.dark .course-num{background:#303b2e;color:#d1e2b8}
+body.dark .course-row .row-meta b{color:#c7d9b6}
+body.dark .practice-dialog{background:#171e1a;color:#e7eee7}
+body.dark .practice-top{border-color:#313c34}
+body.dark .practice-top p,body.dark .practice-stat small,body.dark .exercise-label,body.dark .input-hint,body.dark .finger-legend{color:#a1ada3}
+body.dark .practice-stat strong{color:#e5eee5}
+body.dark .close-btn{background:#2d3730;color:#d8e1d8}
+body.dark .prompt-text{color:#e7eee7}
+body.dark .prompt-text .done{color:#a8cd83}
+body.dark .prompt-text .current{background:#35472f;color:#e0f0ce;box-shadow:0 0 0 3px #35472f}
+body.dark .prompt-text .wrong{background:#50372f;color:#f0c0af;box-shadow:0 0 0 3px #50372f}
+body.dark .prompt-text .space{color:#778379}
+body.dark .key{background:#2b342e;border-color:#3a453d;border-bottom-color:#465149;color:#d5dfd5}
+body.dark .key.target{background:#405536;border-color:#687e4c;color:#f0f5e9;box-shadow:0 3px 0 #53683d}
+body.dark .key.pressed{background:#587342}
+body.dark .finger{background:#303931;border-color:#465148}
+body.dark .finger.active{background:#9fbd76;border-color:#c1dc9a}
+body.dark .palm{background:#29322c;border-color:#3d4840}
+body.dark .setting-row .toggle{background:#465047}
+body.dark .setting-row .toggle.on{background:#82a364}
+body.dark .select option{background:#222b25;color:#e7eee7}
+body.dark .footer{color:#89978b}
+body.dark ::selection{background:#526a43;color:#fff}

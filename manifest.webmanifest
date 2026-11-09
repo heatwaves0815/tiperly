@@ -1,0 +1,10 @@
+{
+  "name": "Tiperly – Tippen lernen",
+  "short_name": "Tiperly",
+  "description": "Ein freundlicher Trainer fürs 10-Finger-Tippen",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f3",
+  "theme_color": "#f7f7f3",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

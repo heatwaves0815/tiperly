@@ -1,0 +1,7 @@
+node_modules/
+release/
+dist/
+*.exe
+
+# Build-Ausgabe von scripts/build-web.cjs
+web/

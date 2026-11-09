@@ -1,0 +1,28 @@
+{
+  "name": "tiperly",
+  "version": "1.0.0",
+  "description": "Ein freundlicher Trainer fürs 10-Finger-Tippen",
+  "main": "electron/main.cjs",
+  "author": "Tiperly",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "web": "npx serve .",
+    "build:web": "node scripts/build-web.cjs",
+    "build:exe": "electron-builder --win portable",
+    "build:installer": "electron-builder --win nsis",
+    "build": "npm run build:web && npm run build:exe"
+  },
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "de.tiperly.app",
+    "productName": "Tiperly",
+    "directories": { "output": "release" },
+    "files": ["index.html", "styles.css", "dark.css", "app.js", "manifest.webmanifest", "sw.js", "icon.svg", "electron/**/*"],
+    "win": { "icon": "icon.ico", "target": ["portable"], "artifactName": "Tiperly-${version}-Windows.${ext}" },
+    "portable": { "artifactName": "Tiperly-${version}-Windows-portabel.${ext}" }
+  }
+}
